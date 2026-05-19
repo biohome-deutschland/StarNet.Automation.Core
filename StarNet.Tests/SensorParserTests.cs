@@ -2,14 +2,13 @@ using System;
 using System.Linq;
 using StarNet.Domain.Interfaces;
 using StarNet.Domain.Models;
-// TODO: Uncomment when xUnit is installed
-// using Xunit;
+using Xunit;
 
 namespace StarNet.Tests
 {
     public class SensorParserTests
     {
-        // [Fact]
+        [Fact]
         public void Parse_ValidFilePath_ReturnsObservations()
         {
             // Arrange
